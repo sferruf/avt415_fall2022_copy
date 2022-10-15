@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url("../font/quicksand_webfontkit-20220916-152132/quicksand-regular-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'milkycoffee';
+    src: url("../font/milkycoffee_webfontkit-20220916-153618/milky_coffee-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";*/
+  font-size: 18px;
+  line-height: 1.8em;
+  font-family: 'Bodoni Moda', serif;
+  background-color: black;
+}
+
+
+.div1 {
+  width: 300px;
+  height: 250px;
+  border: 10px solid blue;
+  background-color: white;
+  margin: 25px 50px;
+  padding: 15px;
+}
+
+.div2 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 20px solid red;
+  background-color: white;
+  margin: 35px;
+}
+
+.div1b {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  margin: 20px;
+  padding: 15px;
+}
+
+.div2b {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  margin: 20px;
+  padding: 15px;
+}
+#set2 {
+  box-sizing: border-box;
+  border: 5px dotted purple;
+  width: 500px;
+  height: 400px;
+}
+
+.div3 {
+  padding: 50px;
+  border: 1px solid green;
+  background-color: white;
+  margin: 20px 35px;
+  text-indent: 50px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+h2 .div3 {
+  text-indent: 25px;
+  line-height: 1.8;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.div4 { /*design the style*/
+	padding-bottom: 30px;
+  color: white;
+}
+p .div3 {
+	padding-bottom: 30px;
+  color: black;
+}
+
+h1{
+	font-family: 'milkycoffee';
+	padding-bottom: 30px;
+  color: orange;
+}
+h2 {
+	font-family: 'quicksand';
+  text-transform: uppercase
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: purple;
+}
+
+h3 {
+	font-family: 'milkycoffee';
+	font-weight:400;
+  color: yellow;
+}
+h4 {
+	font-family: 'quicksand';
+	font-weight:700;
+  font-style: italic;
+  color: white;
+}
+em {
+	font-family: 'quicksand';
+  color: white;
+}

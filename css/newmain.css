@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+@-ms-viewport{
+  width: device-width;
+}
+html {
+ font-size: 16px;
+ /*border-style: solid;*/
+ margin: 20px
+}
+
+body {
+  background-color: #F7E1D4;
+  font-family: 'Montserrat', sans-serif;
+  background:url(../images/coffee.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header {
+  width: 75vw;
+  margin: 25px auto;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+
+.col {
+  width: 50%;
+  float: left;
+  margin: 20px;
+  padding: 5px;
+  column-rule-color: white;
+  } /*@media screen and (max-width; 1000px)
+  body {
+    background-color: lightpink
+  }
+  img {
+    max-width: 100%;
+  }*/
+.col2 {
+  margin-left: 50px;
+}
+h1{
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  word-spacing: 5px;
+  text-align: left;
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  color: #204636;
+}
+h2{
+ font-size: 2rem;
+ text-align: left;
+ word-spacing: 10px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500;
+ color: #A2543D;
+}
+ul {
+  list-style-type: none;
+  font-size: 22px;
+  letter-spacing: .5px;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: 15px;
+  font-size: 1.75rem;
+  text-align: left;
+}
+a {
+  text-decoration: none; /* this gets rid of the default underline */
+}
+a:link {
+  color: #204636;
+}
+a:visited {
+  color: #CE7E5D;
+}
+a:hover {
+  color: #D6DCD8;
+}
+a:active {
+  color: #D6DCD8;
+}
+@media screen and (max-width: 961px) {
+  /*.col {
+    width: 100%;
+    margin-bottom: 50px;
+  }*/
+  header {
+    width: 90vw;
+  }
+  main {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
